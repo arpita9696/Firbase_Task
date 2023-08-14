@@ -12,6 +12,7 @@ import {connect, useDispatch} from 'react-redux';
 import { loginAction} from '../../redux/Home.slice';
 
 const LoginScreen = ({onLoginAction,navigation}) => {
+  console.log('first')
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [passwordError, setPasswordError] = useState('');
